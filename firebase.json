@@ -1,10 +1,19 @@
 {
-  "hosting": {
-    "public": "dist/apps/ak-components",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting": [
+    {
+      "target": "ak-components",
+      "public": "dist/apps/ak-components",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "ak-shell",
+      "public": "dist/apps/ak-shell",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "ak-widgets",
+      "public": "dist/apps/ak-widgets",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+  ]
 }
