@@ -1,0 +1,19 @@
+{
+  "name": "phonenumber",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/phonenumber/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared/phonenumber",
+        "main": "libs/shared/phonenumber/src/index.ts",
+        "tsConfig": "libs/shared/phonenumber/tsconfig.lib.json",
+        "assets": ["libs/shared/phonenumber/*.md"]
+      }
+    }
+  }
+}

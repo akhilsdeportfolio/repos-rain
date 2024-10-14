@@ -1,0 +1,9 @@
+{
+  "name": "ak-widgets",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ak-widgets/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project ak-widgets --web",
+  "targets": {}
+}

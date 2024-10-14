@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ak-monorepo-web/hello": ["libs/hello/src/index.ts"]
+      "@ak-monorepo-web/hello": ["libs/hello/src/index.ts"],
+      "@ak-monorepo-web/phonenumber": ["libs/shared/phonenumber/src/index.ts"],
+      "@ak-monorepo-web/ui": ["libs/shared/ui/src/index.ts"],
+      "@ak-monorepo-web/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
